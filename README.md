@@ -31,7 +31,7 @@ graph TD
         end
         
         subgraph Data_Layer
-            K --> O[Policy Documents (S3)]
+            K --> O[Policy Documents 'S3']
             P[Aurora PostgreSQL] -->|Employee Data| J
             Q[DynamoDB] -->|Session State| G
         end
